@@ -84,7 +84,7 @@ For hot regions scheduling, use `hot-region-scheduler`. Since TiDB v3.0, the pro
 
 2. Redistribute these regions in a similar way to load balancing.
 
-For hot write regions, `hot-region-scheduler` attempts to redistribute both region peers and leaders; for hot read regions, `hot-region-scheduler` only redistributes region leaders.
+For hot read regions, `hot-region-scheduler` attempts to redistribute both region peers and leaders; for hot write regions, `hot-region-scheduler` only redistributes region leaders.
 
 ### Cluster topology awareness
 
